@@ -1,0 +1,428 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.2rem;
+  flex-wrap: wrap;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+#nameLogo {
+  padding-left: 9%;
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #1d6366;
+}
+
+#img {
+  width: 40%;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: right;
+  color: #1d6366;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#hr1 {
+  height: 0.3rem;
+  background-color: #335b87;
+  border: none;
+}
+
+/* object */
+
+.object {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  align-items: center;
+}
+
+.objectLogo {
+  width: 13%;
+  border-radius: 50%;
+}
+
+.objectName {
+  font-weight: bold;
+  font-size: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.demande {
+  color: #0c31d6;
+}
+
+.finance {
+  font-style: italic;
+  color: #01af32;
+}
+
+.program {
+  display: flex;
+
+}
+
+#nom:focus {
+  outline: none;
+}
+
+#nom {
+  border: none;
+  font-size: 16px;
+  padding: 3px;
+  width: 450px;
+}
+
+.program {
+  padding-top: 1.5rem;
+  padding-left: 7%;
+}
+
+.allBody {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#JRM {
+  font-style: italic;
+  padding-left: 7%;
+
+}
+
+/* tableau */
+
+.demandeur {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  height: 100%;
+  border-bottom: 1px solid #000;
+  padding: 10px;
+  background-color: #daddee;
+  padding-top: 6rem;
+}
+
+.ligne-noire-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.ligne-noire-input input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 50%;
+  font-size: 16px;
+  padding-left: 0.3rem;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: none;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.dateVille {
+  display: flex;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.table {
+  display: flex;
+}
+
+
+#sup {
+  font-size: smaller;
+}
+
+.table1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* table2 */
+
+
+.table2 {
+  width: 100%;
+  display: flex;
+  height: 100;
+}
+
+.form1 {
+  border: 1px solid #000;
+
+}
+
+.nomPrenom {
+  border: 1px solid #000;
+  text-align: center;
+  width: 50%;
+}
+
+.none {
+  padding: 10px;
+  width: 100%;
+}
+
+.d1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+.d11 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.table2Lef {
+  border-bottom: 1px solid #000;
+  padding: 0.8rem;
+  background-color: #ebf0f6;
+}
+
+.table2Left {
+  justify-content: center;
+  background-color: #daddee;
+  justify-content: center;
+  flex: 1;
+}
+
+#texte {
+  border-bottom: 1px solid #000;
+  padding: 0.5rem;
+  font-weight: bold;
+  height: 50px;
+}
+
+.table21 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: auto;
+}
+
+
+.table2Middle {
+  display: flex;
+}
+
+.table2Middle1 {
+  display: flex;
+}
+
+.table2Right {
+  display: flex;
+}
+
+.d3 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+.table2 {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.form1 {
+  border: 1px solid #000;
+  width: 100%;
+  padding: 10px;
+  width: fit-content;
+}
+
+.nomPrenom {
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.none {
+  padding: 10px;
+  width: 50%;
+}
+
+.table21 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.table2Middle {
+  display: flex;
+  flex-grow: 1;
+}
+
+.table2Middle1 {
+  display: flex;
+  flex-grow: 1;
+}
+
+.table2Right {
+  display: flex;
+  flex-grow: 1;
+}
+
+.d3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.allTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: smaller;
+}
+
+.revenu {
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  width: 100%;
+}
+
+#revenuFinancier {
+  text-align: center;
+  padding: 1rem;
+
+}
+
+.information {
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 0.5rem;
+}
+
+.addresseEmailTel {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.lastRight {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.lastLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.lastDiv {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.engagement,
+.decision {
+  border-bottom: 1px solid black;
+}
+
+.engagement,
+.jointe,
+.decision,
+.note {
+  flex: 1;
+  border: 1px solid black;
+  padding: 10px;
+  padding-left: 3rem;
+}
+
+.decision {
+  padding-top: 6.09rem;
+  justify-content: center;
+}
+
+#Certificat {
+  text-align: center;
+  font-size: 18px;
+}
+
+.signature {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+#BoiteP {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.hr3 {
+  display: flex;
+  width: 100%;
+  padding-top: 1rem;
+  justify-content: center;
+}
+
+#hr31 {
+  width: 10%;
+  background-color: #335b87;
+  height: 10px;
+}
+
+#hr32 {
+  height: 10px;
+  width: 80%;
+  background-color: none;
+}
+
+#hr33 {
+  height: 10px;
+  width: 10%;
+  background-color: #335b87;
+}
+
+#registration {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
