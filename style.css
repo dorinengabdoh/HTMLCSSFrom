@@ -9,10 +9,10 @@
   margin: 0 auto;
   margin-top: 3rem;
   padding-bottom: 2rem;
+  min-width: 320px;
 }
 
 /* header */
-
 .header {
   display: flex;
   justify-content: space-around;
@@ -24,13 +24,13 @@
 .headerLeft {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 #nameLogo {
   font-size: 22px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: #1d6366;
+  padding-left: 1rem;
 }
 
 #img {
@@ -53,7 +53,6 @@
 }
 
 /* object */
-
 .object {
   display: flex;
   justify-content: space-between;
@@ -79,6 +78,11 @@
 
 .demande {
   color: #011b8fcc;
+}
+
+#demande{
+  font-size: 8px;
+
 }
 
 .finance {
@@ -126,6 +130,7 @@
 }
 
 .demandeur {
+  border-left: 1px solid black;
   display: flex;
   flex-direction: column;
   gap: 6rem;
@@ -153,8 +158,10 @@
   outline: none;
 }
 
+/* form1 */
 .form1 {
-  border-left: 1px solid #000;
+  border-left: 2px solid #000;
+  border-right: 1px solid #000;
   width: 100%;
   width: fit-content;
   padding: 10px;
@@ -162,6 +169,8 @@
 
 .top2 {
   display: flex;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
 }
 
 .none {
@@ -211,9 +220,9 @@ sup {
 }
 
 .top21 {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
+  padding-left: 0.3rem;
 }
-
 
 .nomPrenom,
 .top21,
@@ -225,11 +234,17 @@ sup {
   width: 100%;
 }
 
+.sexe {
+  border-right: 1px solid #000;
+}
+
+/* footer */
 .revenu {
   border-bottom: 1px solid #000;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
   width: 100%;
+  background-color: #daddee;
 }
 
 #revenuFinancier {
@@ -248,8 +263,8 @@ sup {
 
 .information {
   border-bottom: 1px solid #000;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
   padding: 0.5rem;
 }
 .addresseEmailTel {
@@ -270,42 +285,53 @@ sup {
   flex: 1;
 }
 
-.engagement {
-  padding: 2rem;
+.dates {
+  text-align: center;
+  padding: 8px;
+  background-color: #daddee;
 }
 
- .engagement,
+.engagement {
+  border-left: 1px solid #000;
+  padding-bottom: 1rem;
+}
+
+.engage{
+  flex: 1;
+  padding: 6px;
+  padding-left: 1.71rem;
+}
+
+.jointe {
+  border-left: 1px solid #000;
+}
+
 .jointe,
-.decision,
+.comite,
 .note {
   flex: 1;
   padding: 6px;
   padding-left: 3rem;
-
 }
 
 .decision, .note {
-  border-left: 1px solid #000;
-
+  border-left: 2px solid #000;
+  border-right: 1px solid #000;
 }
-
-.decision {
-  padding-top: 1.09rem;
-}  
 
  #Certificat {
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .signature {
   display: flex;
-  justify-content: space-between;
   padding-top: 2rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
-#demande, .mention {
+.mention {
   font-size: 10px;
 }
 
@@ -340,8 +366,16 @@ sup {
   background-color: #335b87;
 }
 
+#top21, .nameSurname, .date{
+  background-color: #daddee;
+}
+
 #registration {
   text-align: center;
   font-weight: bold;
   font-size: 12px;
 } 
+
+.sexeTop {
+  background-color: #ebeff8;
+}

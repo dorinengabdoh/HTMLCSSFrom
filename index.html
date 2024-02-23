@@ -40,7 +40,7 @@
       <div class="program">
         <label for="nom">Programme Immobilier</label><br />
         <input type="text" id="nom" name="nom"
-          placeholder="-------------------------------------------------------------------------------------------------------------------------" />
+          placeholder="----------------------------------------------------------------" />
       </div>
       <p id="JRM">JRM</p>
       <!-- tableau -->
@@ -169,19 +169,16 @@
               </div>
             </div>
           </div>
-
           <!-- top2 -->
           <div class="top2">
             <div class="top21">
               <p class="table2Lef">ENFANTS <br />LEGITIMES OU <br />A CHARGE</p>
             </div>
-
             <div class="nomPrenom">
               <div class="nomPrenomTop">
-                <p id="texte">Noms et Prenoms</p>
+                <p id="texte" class="nameSurname">Noms et Prenoms</p>
               </div>
               <div class="none">
-
               </div>
             </div>
             <div class="sexe">
@@ -193,7 +190,7 @@
             </div>
             <div class="sexe">
               <div class="sexeTop">
-                <p id="texte">Date de <br> naissance</p>
+                <p id="texte" class="date">Date de <br> naissance</p>
               </div>
               <div class="none">
               </div>
@@ -208,13 +205,13 @@
           </div>
           <!-- top3 -->
           <div class="top2">
-            <div class="top21">
+            <div class="top21" id="top21">
               <p class="table2Lef">REVENUS DU <br /> FOYER (par mois)</p>
             </div>
 
             <div class="nomPrenom">
               <div class="nomPrenomTop">
-                <p id="texte">Salaire net du <br> du demandeur</p>
+                <p id="texte" class="date">Salaire net du <br> du demandeur</p>
               </div>
               <div class="none">
 
@@ -229,7 +226,7 @@
             </div>
             <div class="sexe">
               <div class="sexeTop">
-                <p id="texte">Autres revenus <br> a preciser <br> naissance</p>
+                <p id="texte" class="date">Autres revenus <br> a preciser <br> naissance</p>
               </div>
               <div class="none">
               </div>
@@ -264,48 +261,54 @@
           <div class="lastDiv">
             <div class="lastLeft">
               <div class="engagement">
-                <p>ENGAGEMENT DU CLIENT</p>
-                <div class="ligne-noire-input">
-                  <label id="sup" for="nom">Type de logement</label>
-                  <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                <div class="dates">
+                  <p>ENGAGEMENT DU CLIENT</p>
                 </div>
-                <div class="ligne-noire-input">
-                  <label id="sup" for="nom">Prix de vente</label>
-                  <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
-                </div>
-                <div class="ligne-noire-input">
-                  <label id="sup" for="nom">Depot de garantie disponible</label>
-                  <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
-                </div>
-                <div class="ligne-noire-input">
-                  <label id="sup" for="nom">Frais de Notaire</label>
-                  <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
-                </div>
-                <div class="ligne-noire-input">
-                  <label id="sup" for="nom">Frais de dossier technique</label>
-                  <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                <div class="engage">
+                  <div class="ligne-noire-input">
+                    <label id="sup" for="nom">Type de logement</label>
+                    <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                  </div>
+                  <div class="ligne-noire-input">
+                    <label id="sup" for="nom">Prix de vente</label>
+                    <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                  </div>
+                  <div class="ligne-noire-input">
+                    <label id="sup" for="nom">Depot de garantie disponible</label>
+                    <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                  </div>
+                  <div class="ligne-noire-input">
+                    <label id="sup" for="nom">Frais de Notaire</label>
+                    <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                  </div>
+                  <div class="ligne-noire-input">
+                    <label id="sup" for="nom">Frais de dossier technique</label>
+                    <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                  </div>
                 </div>
               </div>
               <div class="decision">
-                <p>DECISION DU COMITE D'ATTRIBUTION</p>
-                <div class="ligne-noire-input">
-                  <label id="sup" for="nom">Favorable</label>
-                  <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                <div class="dates">
+                  <p>DECISION DU COMITE D'ATTRIBUTION</p>
                 </div>
-                <div class="ligne-noire-input">
-                  <label id="sup" for="nom">N<sup>o</sup> de logement attribue</label>
-                  <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
-                </div>
-                <div class="ligne-noire-input">
-                  <label id="sup" for="nom">Defavorable</label>
-                  <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                <div class="comite">
+                  <div class="ligne-noire-input">
+                    <label id="sup" for="nom">Favorable</label>
+                    <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                  </div>
+                  <div class="ligne-noire-input">
+                    <label id="sup" for="nom">N<sup>o</sup> de logement attribue</label>
+                    <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                  </div>
+                  <div class="ligne-noire-input">
+                    <label id="sup" for="nom">Defavorable</label>
+                    <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
+                  </div>
+
                 </div>
               </div>
-
             </div>
-
             <div class="lastRight">
-
               <div class="jointe">
                 <p><u><strong>pieces a joindre</strong></u></p>
                 <ul>
@@ -318,7 +321,6 @@
                   <li>Attestation de travail</li>
                 </ul>
               </div>
-
               <div class="note">
                 <ul>
                   <li>Trois bulletins de salaire du demandeur et du conjoint <br> (Eventuellement) </li>
@@ -330,12 +332,8 @@
                   </li>
                 </ul>
               </div>
-
             </div>
-
-
           </div>
-
         </div>
         <p id="Certificat">
           je certifie exacte les informations contenus sur la presente demande
@@ -343,21 +341,9 @@
         </p>
         <div class="signature">
           <div class="ligne-noire-input">
-            <input
-              type="text"
-              id="reponse1"
-              name="reponse1"
-              placeholdname="reponse1"
-              er=""
-            />
+            <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
             <label id="sup" for="nom">le</label>
-            <input
-              type="text"
-              id="reponse1"
-              name="reponse1"
-              placeholdname="reponse1"
-              er=""
-            />
+            <input type="text" id="reponse1" name="reponse1" placeholdname="reponse1" er="" />
           </div>
           <p id="demande">SIGNATURE DU DEMANDEUR</p>
         </div>
@@ -379,5 +365,4 @@
     </p>
   </div>
 </body>
-
 </html>
