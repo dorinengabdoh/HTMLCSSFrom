@@ -8,7 +8,6 @@
   width: 40%;
   margin: 0 auto;
   margin-top: 3rem;
-  padding-bottom: 2rem;
   min-width: 320px;
 }
 
@@ -19,22 +18,34 @@
   align-items: center;
   margin-bottom: 0.2rem;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .headerLeft {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #nameLogo {
   font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
   color: #1d6366;
-  padding-left: 1rem;
 }
 
 #img {
-  width: 40%;
+  width: 100%;
+}
+
+.allHeader {
+  padding-top: 3rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.allHeader2 {
+  width: 60%;
+  margin: 0 auto;
 }
 
 .headerRight {
@@ -55,7 +66,7 @@
 /* object */
 .object {
   display: flex;
-  justify-content: space-between;
+  gap: 6rem;
   padding-top: 2rem;
   align-items: center;
 }
@@ -87,7 +98,8 @@
 
 .finance {
   font-style: italic;
-  color: #01af32;
+  color: #248f42;
+  font-size: 20.5px;
 }
 
 .program {
@@ -108,7 +120,7 @@
 }
 
 .allBody {
-  width: 80%;
+  width: 99%;
   margin: 0 auto;
 }
 
@@ -137,6 +149,7 @@
   justify-content: center;
   padding: 10px;
   background-color: #daddee;
+  padding-left: 2.4rem;
 }
 
 .ligne-noire-input {
@@ -163,7 +176,6 @@
   border-left: 2px solid #000;
   border-right: 1px solid #000;
   width: 100%;
-  width: fit-content;
   padding: 10px;
 }
 
@@ -234,7 +246,7 @@ sup {
   width: 100%;
 }
 
-.sexe {
+#sexe {
   border-right: 1px solid #000;
 }
 
@@ -338,18 +350,17 @@ sup {
 #BoiteP {
   text-align: center;
   padding-top: 2rem;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .hr3 {
   display: flex;
   width: 100%;
-  padding-top: 1rem;
   justify-content: center;
 }
 
 #hr31 {
-  width: 15%;
+  width: 18%;
   background-color: #335b87;
   height: 7px;
 }
@@ -362,7 +373,7 @@ sup {
 
 #hr33 {
   height: 7px;
-  width: 15%;
+  width: 18%;
   background-color: #335b87;
 }
 
@@ -373,7 +384,8 @@ sup {
 #registration {
   text-align: center;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 17px;
+  padding-bottom: 3rem;
 } 
 
 .sexeTop {
